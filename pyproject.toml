@@ -1,0 +1,25 @@
+[project]
+name = "mcp-server-gemini-image-generator"
+version = "0.2.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Oleg Pashuk",email = "olegfour3@gmail.com"}]
+keywords = ["http", "mcp", "llm", "automation"]
+license = { text = "MIT" }
+dependencies = [
+    "fastmcp>=0.4.1",
+    "google>=3.0.0",
+    "google-genai>=1.7.0",
+    "pillow>=11.1.0",
+]
+
+[project.scripts]
+mcp-server-gemini-image-generator = "mcp_server_gemini_image_generator:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["pyright>=1.1.389", "ruff>=0.7.3"]
