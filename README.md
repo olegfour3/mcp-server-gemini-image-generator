@@ -1,3 +1,7 @@
+
+# This repo is fork from [@qhdrl12/mcp-server-gemini-image-generator](https://github.com/qhdrl12/mcp-server-gemini-image-generator) with new models and better visibility of errors. 
+
+
 ![fluffy ginger cat](examples/product_mockup.png)
 
 
